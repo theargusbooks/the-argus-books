@@ -44,7 +44,7 @@ function getDiscountedPrice(price, discount) {
 // BOOK DATA
 let books = [];
 
-fetch("./data/books.json")
+fetch("data/books.json")
   .then((response) => response.json())
   .then((data) => {
     books = data;
@@ -309,3 +309,4 @@ function setMarqueeWidth() {
 
 setMarqueeWidth();
 window.addEventListener("resize", setMarqueeWidth);
+
