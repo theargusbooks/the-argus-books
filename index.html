@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="The Argus Books – Independent publishing house producing high-quality books on history, culture, and ideas.">
+    <meta name="description"
+        content="The Argus Books is an independent publishing house in India, publishing high-quality books on history, culture, and ideas.">
+
+    <meta name="keywords"
+        content="Argus Books, The Argus Books, Indian publisher, book publishing house, coffee table books">
+
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE ARGUS BOOKS</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+
+            <!-- LEFT: Logo + Name -->
+            <a href="index.html" class="nav-brand">
+                <img id="navLogo" src="/img/Logo-THE ARGUS BOOKS.png" data-default="/img/Logo-THE ARGUS BOOKS.png"
+                    data-scrolled="/img/Logo-Contact US.png" alt="The Argus Books Logo">
+                <!-- <span class="nav-title">THE ARGUS BOOKS</span> -->
+            </a>
+            <!-- CENTER TITLE -->
+            <div class="nav-title-center">
+                THE ARGUS BOOKS
+
+            </div>
+
+            <!-- RIGHT: Links -->
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#books">New Releases</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <!-- MOBILE MENU BUTTON -->
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- MOBILE MENU PANEL -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#books">New Releases</a>
+        <a href="#contact">Contact</a>
+
+
+    </div>
+
+
+    <!-- MOBILE DROPDOWN -->
+    <!-- <div id="mobileMenu" class="mobile-menu">
+        <a href="#hero">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#bookGrid">Books</a>
+        <a href="#contact">Contact</a>
+        <div class="search-wrapper hero-search search-menu">
+            <input type="text" id="searchInput" placeholder="Search by Title...">
+            <span id="clearSearch" class="clear-search">✕</span>
+        </div>
+        <div id="searchResults" class="search-results"></div>
+    </div> -->
+
+
+    <!-- HERO SECTION (optional minimal hero) -->
+    <!-- HERO SECTION WITH IMAGE + SEARCH BAR -->
+    <header class="hero-banner">
+        <div class="hero-overlay">
+            <h2 class="hero-title">A Legacy in Every Page</h2>
+
+            <div class="search-wrapper hero-search">
+                <input type="text" id="searchInput" placeholder="Search by Title...">
+                <span id="clearSearch" class="clear-search">✕</span>
+            </div>
+            <div id="searchResults" class="search-results"></div>
+
+        </div>
+    </header>
+
+
+
+    <div class="premium-divider"><span>◆</span></div>
+
+
+    <!-- BOOKS SECTION -->
+    <section class="container" id="books">
+        <h2 class="section-title argus-red">NEW RELEASES</h2>
+
+        <div id="bookGrid" class="grid"></div>
+    </section>
+
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-inner">
+                <span id="closeModal" class="close">&times;</span>
+
+                <img id="modalImg" class="modal-img">
+                <h2 id="modalTitle"></h2>
+                <p id="modalAuthor"></p>
+
+                <p id="modalPrice"></p>
+                <p id="modalFormat"></p>
+                <p id="modalYear"></p>
+                <p id="modalAbout"></p>
+
+                <p id="modalDesc" class="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <section class="container">
+        <h2 class="section-title">THE ARGUS BOOKS</h2>
+        <div id="bookGrid" class="grid"></div>
+    </section> -->
+
+    <div class="premium-divider"><span>◆</span></div>
+    <section class="services-section .section-container">
+        <h2 class="section-title argus-red">OUR SERVICES</h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <img src="/img/proofreading.png" alt="Editing">
+                <h3>Editing & Proofreading</h3>
+                <p class="service-p">Professional polishing of your manuscript for clarity, flow, and quality.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="/img/book-cover.png" alt="Cover Design">
+                <h3>Cover Design</h3>
+                <p class="service-p">Premium visual designs that make your book stand out in the market.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="/img/publishing.png" alt="Publishing">
+                <h3>Publishing Assistance</h3>
+                <p class="service-p">Complete support—from ISBN to printing—to bring your book to life.</p>
+            </div>
+
+            <div class="service-card">
+                <img src="/img/distribution.png" alt="Distribution">
+                <h3>Distribution</h3>
+                <p class="service-p">We help place your book in the right spaces to reach your audience.</p>
+            </div>
+
+        </div>
+    </section>
+    <div class="premium-divider"><span>◆</span></div>
+
+    <!-- OUR PUBLISHING PROCESS -->
+    <h2 class="section-title argus-red">OUR PUBLISHING PROCESS</h2>
+
+    <section id="process" class="process-section container fade-up section-card">
+
+        <p class="process-intro">
+            From manuscript to a finished book, We follow a thoughtful, transparent,
+            and professional publishing journey.
+        </p>
+
+        <div class="process-steps">
+
+            <div class="process-step">
+                <span class="step-number">01</span>
+                <div>
+                    <h3>Submission</h3>
+                    <p>Authors submit their manuscript, proposal, or sample chapters for initial consideration.</p>
+                </div>
+            </div>
+
+            <div class="process-step">
+                <span class="step-number">02</span>
+                <div>
+                    <h3>Editorial Review</h3>
+                    <p>Our editorial team evaluates originality, quality, relevance, and alignment with our vision.</p>
+                </div>
+            </div>
+
+            <div class="process-step">
+                <span class="step-number">03</span>
+                <div>
+                    <h3>Manuscript Development</h3>
+                    <p>Selected works undergo editorial guidance, refinement, and structural improvement.</p>
+                </div>
+            </div>
+
+            <div class="process-step">
+                <span class="step-number">04</span>
+                <div>
+                    <h3>Design & Production</h3>
+                    <p>Professional typesetting, cover design, layout, and print-ready preparation.</p>
+                </div>
+            </div>
+
+            <div class="process-step">
+                <span class="step-number">05</span>
+                <div>
+                    <h3>Printing & Publishing</h3>
+                    <p>Final approval followed by high-quality printing and official publication.</p>
+                </div>
+            </div>
+
+            <div class="process-step">
+                <span class="step-number">06</span>
+                <div>
+                    <h3>Distribution & Promotion</h3>
+                    <p>Titles are prepared for circulation through appropriate distribution and outreach channels.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="premium-divider"><span>◆</span></div>
+
+    <!-- CONNECT SECTION -->
+    <section class="connect-section section-container">
+        <h2 class="connect-title argus-red">CONNECT</h2>
+
+        <div class="connect-grid">
+
+            <a href="#contact" class="connect-link">
+                <div class="connect-card">
+                    <img src="/img/author.png" alt="">
+                    <p>Are you an aspiring author?</p>
+                </div>
+            </a>
+
+            <a href="#contact" class="connect-link">
+                <div class="connect-card">
+                    <img src="/img/educator.png" alt="">
+                    <p>Are you an educator?</p>
+                </div>
+            </a>
+
+            <a href="#contact" class="connect-link">
+                <div class="connect-card">
+                    <img src="/img/guest-list.png" alt="">
+                    <p>Do you want to be a part of our guest list?</p>
+                </div>
+            </a>
+
+            <a href="#contact" class="connect-link">
+                <div class="connect-card">
+                    <img src="/img/collaborate.png" alt="">
+                    <p>Do you want to collaborate?</p>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <div class="premium-divider"><span>◆</span></div>
+
+
+    <!-- ABOUT US SECTION -->
+    <h2 class="section-title argus-red">ABOUT US</h2>
+    <section id="about" class="about-section container fade-up section-card">
+
+
+        <h2 class="about-heading argus-red">Who are We</h2>
+        <div class="about-separator"></div>
+
+
+        <div class="about-grid">
+
+            <!-- LEFT COLUMN -->
+            <div class="about-left">
+                <p>
+                    The Argus Books is an independent publishing house based in India, committed to producing
+                    high-quality books across genres including fiction, non-fiction, culture, art, self-help,
+                    history, philosophy, and regional literature. Our mission is to bring meaningful,
+                    inspiring, and intellectually enriching content to readers in India and across the world.
+                </p>
+
+                <p>
+                    We collaborate with emerging as well as established authors, giving them a platform to reach
+                    a wide audience. Our catalogue focuses on thoughtful storytelling, well-researched non-fiction,
+                    and visually rich coffee-table books. We aim to preserve cultural heritage and promote new
+                    voices by publishing books that carry depth, emotion, and artistic value.
+                </p>
+
+                <p>
+                    Our goal is to empower writers, support creativity, and contribute to the growth of
+                    Indian publishing by maintaining professionalism, transparency, and editorial excellence.
+                </p>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="about-right">
+                <h3 class="argus-red" style="text-decoration: underline;">PUBLISH WITH US</h3>
+
+                <p>
+                    We welcome authors from all backgrounds to publish with us. If you have a manuscript, proposal,
+                    or book idea, you can submit your synopsis or sample chapters at:
+                    <br><br>
+                    <strong>Email:</strong> theargusbooks@gmail.com
+                </p>
+
+                <h4>Submission Guidelines:</h4>
+                <ul>
+                    <li>Submit your synopsis in clean, double-spaced text.</li>
+                    <li>Avoid fancy fonts; use simple, readable formatting.</li>
+                    <li>If submitting in a language other than English, send it in PDF format.</li>
+                    <li>Include complete contact details with your submission.</li>
+                    <li>Send at least 3–4 sample chapters for evaluation.</li>
+                    <li>Do not send original manuscripts unless requested.</li>
+                    <li>If your work is approved, we will request the complete manuscript.</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="premium-divider"><span>◆</span></div>
+    <section class="mission-section section-container">
+        <h2 class="section-title argus-red">MISSION & VISION</h2>
+
+        <div class="mission-card">
+            <p>
+                At THE ARGUS BOOKS, our mission is to publish works that preserve
+                culture, spark curiosity, and inspire deeper understanding.
+                <br><br>
+                Our vision is to create timeless books that celebrate art, heritage,
+                and human expression—crafted with care, authenticity, and purpose.
+            </p>
+        </div>
+    </section>
+    <div class="premium-divider"><span>◆</span></div>
+
+    <section class="testimonials-section section-container">
+        <h2 class="section-title argus-red">TESTIMONIALS</h2>
+        <div class="testimonials-marquee">
+            <div class="marquee-track">
+                <div class="marquee-strip">
+                    <div class="testimonials-set">
+
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “The Argus Books produces some of the most beautifully crafted editions.
+                                The attention to detail is outstanding.”
+                            </p>
+                            <p class="testimonial-author">— A Reader From Delhi</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “Professional, high-quality, and passionate about preserving heritage.
+                                A wonderful publishing house to work with.”
+                            </p>
+                            <p class="testimonial-author">— Cultural Researcher</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “We found the Netaji volume suitable for library circulation as well as reference use.
+                                The narrative is clear, and the visual material supports the text without overpowering
+                                it.”
+                            </p>
+                            <p class="testimonial-author">— Professor of Modern Indian History</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “The Argus Books brings seriousness to publishing. Their titles are informative without
+                                being overwhelming, making them suitable for ministries, libraries, and academic readers
+                                alike.”
+                            </p>
+                            <p class="testimonial-author">— Research Scholar, New Delhi</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “‘समरगाथा’ is appropriate for college libraries and readers interested in India’s
+                                freedom movement through Hindi sources.”
+                            </p>
+                            <p class="testimonial-author">— Library Acquisition Head, State University</p>
+                        </div>
+
+
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “A publishing house that respects both the reader and the subject. The Argus Books
+                                delivers
+                                books that are meant to be preserved, not discarded.”
+                            </p>
+                            <p class="testimonial-author">— Independent Reviewer</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “‘उत्तर प्रदेश का स्वतंत्रता संग्राम’ provides a region-specific understanding of the
+                                freedom movement, highlighting
+                                local contributions from Uttar Pradesh that are often overlooked in broader narratives.”
+                            </p>
+                            <p class="testimonial-author">— Assistant Professor, History</p>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- REPEAT SET -->
+
+                    <div class="testimonials-set">
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “The Argus Books produces some of the most beautifully crafted editions.
+                                The attention to detail is outstanding.”
+                            </p>
+                            <p class="testimonial-author">— A Reader From Delhi</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “Professional, high-quality, and passionate about preserving heritage.
+                                A wonderful publishing house to work with.”
+                            </p>
+                            <p class="testimonial-author">— Cultural Researcher</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “We found the Netaji volume suitable for library circulation as well as reference use.
+                                The narrative is clear, and the visual material supports the text without overpowering
+                                it.”
+                            </p>
+                            <p class="testimonial-author">— Professor of Modern Indian History</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “The Argus Books brings seriousness to publishing. Their titles are informative without
+                                being overwhelming, making them suitable for ministries, libraries, and academic readers
+                                alike.”
+                            </p>
+                            <p class="testimonial-author">— Research Scholar, New Delhi</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “‘समरगाथा’ is appropriate for college libraries and readers interested in India’s
+                                freedom movement through Hindi sources.”
+                            </p>
+                            <p class="testimonial-author">— Library Acquisition Head, State University</p>
+                        </div>
+
+
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “A publishing house that respects both the reader and the subject. The Argus Books
+                                delivers
+                                books that are meant to be preserved, not discarded.”
+                            </p>
+                            <p class="testimonial-author">— Independent Reviewer</p>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “‘उत्तर प्रदेश का स्वतंत्रता संग्राम’ provides a region-specific understanding of the
+                                freedom movement, highlighting
+                                local contributions from Uttar Pradesh that are often overlooked in broader narratives.”
+                            </p>
+                            <p class="testimonial-author">— Assistant Professor, History</p>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="premium-divider"><span>◆</span></div>
+
+    <section class="google-form-section section-container">
+        <h2 class="section-title argus-red">SUBMIT YOUR DETAILS</h2>
+
+        <div class="google-form-wrapper">
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfGLepfsxih3wAAlZeM95sdLBtkOXz6uZif3Ci-5DCfwr4vNQ/viewform?embedded=true"
+                width="640" height="1323" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section>
+
+    <div class="premium-divider"><span>◆</span></div>
+
+
+    <!-- CONTACT SECTION -->
+    <h2 class="section-title argus-red">CONTACT US</h2>
+    <section id="contact" class="contact-bg">
+
+
+        <div class="contact-card section-card">
+
+            <!-- LOGO -->
+            <img src="/img/Logo-Contact US.png" class="contact-logo" id="contactLogo" alt="Logo">
+
+
+            <div class="contact-line"></div>
+
+            <!-- ADDRESS -->
+            <div class="contact-row">
+                <span class="icon">📍</span>
+                <p>107, Ansari Road<br>Daryaganj, New Delhi- 110002 [India]</p>
+            </div>
+
+            <!-- <div class="contact-line"></div> -->
+            <div class="contact-line"></div>
+
+            <!-- PHONE -->
+            <div class="contact-row">
+                <span class="icon">📱</span>
+                <p>+91-9871912229</p>
+            </div>
+
+
+            <div class="contact-line"></div>
+
+            <!-- LANDLINE -->
+            <div class="contact-row">
+                <span class="icon">☎️</span>
+                <p>011-4444557</p>
+
+            </div>
+
+
+
+            <div class="contact-line"></div>
+            <!-- EMAIL -->
+            <div class="contact-row">
+                <span class="icon">✉️</span>
+                <p>theargusbooks@gmail.com</p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2025 THE ARGUS BOOKS. All Rights Reserved.</p>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+
+    <button id="backToTop" class="back-to-top">↑</button>
+    <script src="script.js"></script>
+
+
+
+    <!-- </div> -->
+
+
+
+
+</body>
+
+</html>

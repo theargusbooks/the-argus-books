@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Releases – THE ARGUS BOOKS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+
+            <!-- LEFT: Logo + Name -->
+            <a href="index.html" class="nav-brand">
+                <img src="Logo-THE ARGUS BOOKS.png" alt="The Argus Books Logo">
+                <!-- <span class="nav-title">THE ARGUS BOOKS</span> -->
+            </a>
+            <!-- CENTER TITLE -->
+            <div class="nav-title-center">
+                THE ARGUS BOOKS
+
+            </div>
+
+            <!-- RIGHT: Links -->
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="new-releases.html">New Releases</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <!-- MOBILE MENU BUTTON -->
+            <div class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- MOBILE MENU PANEL -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="new-releases.html">New Releases</a>
+        <a href="contact.html">Contact</a>
+        <div class="search-wrapper hero-search search-menu">
+            <input type="text" id="searchInput" placeholder="Search by Title...">
+            <span id="clearSearch" class="clear-search">✕</span>
+        </div>
+
+    </div>
+
+    <div class="page-hero">
+        <h1>NEW RELEASES</h1>
+    </div>
+
+    <section class="section-container">
+        <!-- ⭐⭐ PASTE YOUR NEW RELEASES HTML CARDS HERE ⭐⭐ -->
+        <div id="bookGrid" class="grid"></div>
+    </section>
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-inner">
+                <span id="closeModal" class="close">&times;</span>
+
+                <img id="modalImg" class="modal-img">
+                <h2 id="modalTitle"></h2>
+                <p id="modalAuthor"></p>
+
+                <p id="modalPrice"></p>
+                <p id="modalYear"></p>
+                <!-- NEW DESCRIPTION AREA -->
+                <p id="modalDesc" class="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER (copy same footer from your homepage) -->
+    <footer class="footer">
+        <p>© 2025 THE ARGUS BOOKS. All Rights Reserved.</p>
+    </footer>
+    <!-- BACK TO TOP BUTTON -->
+
+    <button id="backToTop" class="back-to-top">↑</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
