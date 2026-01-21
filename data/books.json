@@ -7,7 +7,7 @@
     "format":"Hardbound",
     "price": 1995,
     "discount": 10,
-  "amazon": "https://www.amazon.in/dp/XXXXXXXX",
+  "amazon": "https://www.amazon.in/dp/8194658004",
   "description": "This compilation of the speeches of Subhash Chandra Bose are presented in chronological order. The selection has been made out of a wide range of material, including old copies of journals of the Indian National Army which were secured from Malaya and Singapore.\n\nThe speeches broadly outline the views and reflect the activities of Subhash Chandra Bose since his emergence in public life. Where there are gaps, they are accounted for by his frequent imprisonments and journeys abroad. Netaji's words are vibrant with patriotic fervour. \n\nHis speeches from abroad affirm his determination not to be a puppet of any foreign power, and his conviction that India's freedom should be secured basically as the result of efforts by the Indian people.",
     "img": "img/Netaji.png"
   },
@@ -63,4 +63,5 @@
   
  
   
+
 ]
